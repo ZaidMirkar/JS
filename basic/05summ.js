@@ -14,4 +14,9 @@ let myObj = {
              console.log(hheroes);
            //smjha nai  console.table(myObj,hheroes)
              
+             let func = function(){}
+             console.log(typeof func);
+             const id =Symbol("123")
+             const anotherId= Symbol("123")
+             console.log(id === anotherId);
              
